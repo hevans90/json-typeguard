@@ -1,0 +1,986 @@
+{
+    "page_size": 12,
+    "current": 1,
+    "count": 11,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "url": "http://localhost:8000/v1/entertainment_events/6/",
+        "name": "Alegria",
+        "tags": [],
+        "category": "theatre",
+        "description": "Quae nesciunt repellendus aspernatur voluptatum totam. Culpa at magnam aut vel adipisci. Minus distinctio quod vero architecto.",
+        "terms_and_conditions": "Sit deleniti deleniti officiis. Pariatur voluptatem reiciendis nisi vel.",
+        "top_tips": "Voluptatem nobis aspernatur iste possimus harum dolore.",
+        "review": null,
+        "city_names": [
+          "London"
+        ],
+        "number_of_venues": 1,
+        "number_of_performances": 30,
+        "next_performance": {
+          "url": "http://localhost:8000/v1/entertainment_performances/35/",
+          "event": "http://localhost:8000/v1/entertainment_events/6/",
+          "venue": {
+            "url": "http://localhost:8000/v1/entertainment_venues/6/",
+            "latitude": null,
+            "longitude": null,
+            "address_line1": "45032 Shelton Avenue Suite 470",
+            "address_line2": "706 Jacob Lodge",
+            "city": "London",
+            "state": "New Pamela",
+            "postcode": "97909-9020",
+            "name": "Circus Theater",
+            "seat_plan_file": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_file_91TcntD.pdf",
+            "seat_plan_images": [
+              {
+                "accessibility_description": "",
+                "sequence": 1,
+                "is_main_image": true,
+                "image": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_image_COsGA51.jpg"
+              }
+            ],
+            "country": "http://localhost:8000/v1/countries/GB/",
+            "location": "http://localhost:8000/v1/location_tags/02e1e564-86a1-439a-8014-6db797e673e1/",
+            "accessibility_description": "Ullam asperiores ex mollitia."
+          },
+          "status": "available",
+          "start_date": "2017-12-17T08:20:51Z",
+          "end_date": "2017-12-17T12:20:51Z",
+          "has_vip_suites": false,
+          "is_hot_ticket": true,
+          "estimated_price_min": null,
+          "estimated_price_min_currency": "GBP",
+          "estimated_price_max": null,
+          "estimated_price_max_currency": "GBP"
+        },
+        "minimum_price": 27.111,
+        "maximum_price": 9940.168,
+        "currency": "GBP",
+        "first_date": "2017-12-17T08:20:51Z",
+        "last_date": "2020-10-23T03:49:35Z",
+        "object_type": "event",
+        "artists": [
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/2/",
+            "name": "Circ du soleil",
+            "images": [],
+            "tags": [],
+            "object_type": "artist"
+          }
+        ],
+        "has_hot_tickets": true,
+        "images": [],
+        "popularity": 10
+      },
+      {
+        "url": "http://localhost:8000/v1/entertainment_events/5/",
+        "name": "Adele: Live 2016",
+        "tags": [
+          {
+            "id": 194,
+            "url": "http://localhost:8000/v1/tags/194/",
+            "name": "Pop",
+            "module": "entertainment",
+            "children_url": "http://localhost:8000/v1/tags/194/children/",
+            "num_children": 0,
+            "descendants_url": "http://localhost:8000/v1/tags/194/descendants/",
+            "num_descendants": 0,
+            "is_preferable": true,
+            "num_preferable_descendants": 0,
+            "parent": {
+              "id": 185,
+              "url": "http://localhost:8000/v1/tags/185/",
+              "name": "Music",
+              "module": "entertainment",
+              "children_url": "http://localhost:8000/v1/tags/185/children/",
+              "num_children": 13,
+              "descendants_url": "http://localhost:8000/v1/tags/185/descendants/",
+              "num_descendants": 13,
+              "is_preferable": false,
+              "num_preferable_descendants": 13,
+              "parent": {
+                "id": 184,
+                "url": "http://localhost:8000/v1/tags/184/",
+                "name": "Entertainment",
+                "module": "entertainment",
+                "children_url": "http://localhost:8000/v1/tags/184/children/",
+                "num_children": 8,
+                "descendants_url": "http://localhost:8000/v1/tags/184/descendants/",
+                "num_descendants": 272,
+                "is_preferable": false,
+                "num_preferable_descendants": 264
+              }
+            }
+          }
+        ],
+        "category": "music",
+        "description": "Ab omnis deserunt. Impedit deleniti eius provident est tenetur.\nExpedita quam dolorem aperiam. Corporis tempore veniam magnam doloribus ab. Quaerat quidem quia magni dolore suscipit aut non.",
+        "terms_and_conditions": "Ducimus earum eum voluptate atque. Asperiores quasi consequatur.",
+        "top_tips": "Ea nam quasi quam temporibus labore. Perspiciatis ipsum quis sunt tenetur veritatis quidem quod.",
+        "review": null,
+        "city_names": [
+          "London"
+        ],
+        "number_of_venues": 1,
+        "number_of_performances": 4,
+        "next_performance": {
+          "url": "http://localhost:8000/v1/entertainment_performances/23/",
+          "event": "http://localhost:8000/v1/entertainment_events/5/",
+          "venue": {
+            "url": "http://localhost:8000/v1/entertainment_venues/2/",
+            "latitude": null,
+            "longitude": null,
+            "address_line1": "527 Anderson Mountain Apt. 202",
+            "address_line2": "26615 Michael Roads Suite 234",
+            "city": "London",
+            "state": "Jennifertown",
+            "postcode": "58147-6336",
+            "name": "Wembley Stadium",
+            "seat_plan_file": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_file_gV2f6v3.pdf",
+            "seat_plan_images": [
+              {
+                "accessibility_description": "",
+                "sequence": 1,
+                "is_main_image": true,
+                "image": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_image_mu4KxD3.jpg"
+              }
+            ],
+            "country": "http://localhost:8000/v1/countries/GB/",
+            "location": "http://localhost:8000/v1/location_tags/02e1e564-86a1-439a-8014-6db797e673e1/",
+            "accessibility_description": "Hic suscipit deserunt natus animi."
+          },
+          "status": "available",
+          "start_date": "2018-03-29T17:57:56Z",
+          "end_date": "2018-03-29T19:57:56Z",
+          "has_vip_suites": false,
+          "is_hot_ticket": true,
+          "estimated_price_min": null,
+          "estimated_price_min_currency": "GBP",
+          "estimated_price_max": null,
+          "estimated_price_max_currency": "GBP"
+        },
+        "minimum_price": 812.81,
+        "maximum_price": 9934.83,
+        "currency": "GBP",
+        "first_date": "2016-02-29T20:00:00Z",
+        "last_date": "2020-03-17T11:05:43Z",
+        "object_type": "event",
+        "artists": [
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/3/",
+            "name": "Adele",
+            "images": [],
+            "tags": [
+              "http://localhost:8000/v1/tags/194/"
+            ],
+            "object_type": "artist"
+          }
+        ],
+        "has_hot_tickets": true,
+        "images": [],
+        "popularity": 9
+      },
+      {
+        "url": "http://localhost:8000/v1/entertainment_events/3/",
+        "name": "Metallica World Tour 2017",
+        "tags": [],
+        "category": "music",
+        "description": "Deserunt laudantium possimus explicabo veritatis accusantium recusandae. Placeat explicabo id cupiditate voluptas. Vel quasi aliquam id nobis quia.",
+        "terms_and_conditions": "Ducimus ad quas vitae eligendi incidunt. Suscipit laboriosam libero libero aperiam quis. Libero recusandae soluta sit quas minima minima.",
+        "top_tips": "Laudantium saepe nam rem. Illo vel occaecati distinctio.",
+        "review": null,
+        "city_names": [
+          "London",
+          "Manchester",
+          "Sheffield"
+        ],
+        "number_of_venues": 4,
+        "number_of_performances": 11,
+        "next_performance": {
+          "url": "http://localhost:8000/v1/entertainment_performances/8/",
+          "event": "http://localhost:8000/v1/entertainment_events/3/",
+          "venue": {
+            "url": "http://localhost:8000/v1/entertainment_venues/11/",
+            "latitude": null,
+            "longitude": null,
+            "address_line1": "09961 James Mountains Suite 203",
+            "address_line2": "6554 Reed Orchard",
+            "city": "Manchester",
+            "state": "Brianstad",
+            "postcode": "50122-8092",
+            "name": "Manchester Arena",
+            "seat_plan_file": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_file_w7dcVj1.pdf",
+            "seat_plan_images": [
+              {
+                "accessibility_description": "",
+                "sequence": 1,
+                "is_main_image": true,
+                "image": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_image_jScdkXh.jpg"
+              }
+            ],
+            "country": "http://localhost:8000/v1/countries/GB/",
+            "location": "http://localhost:8000/v1/location_tags/0c80fc5e-aff3-4e12-bbc2-3c4980257a45/",
+            "accessibility_description": "Modi ea porro eveniet ex debitis ipsam."
+          },
+          "status": "sold_out",
+          "start_date": "2017-11-11T12:26:47Z",
+          "end_date": null,
+          "has_vip_suites": false,
+          "is_hot_ticket": true,
+          "estimated_price_min": null,
+          "estimated_price_min_currency": "GBP",
+          "estimated_price_max": null,
+          "estimated_price_max_currency": "GBP"
+        },
+        "minimum_price": 806.9,
+        "maximum_price": 9721.406,
+        "currency": "GBP",
+        "first_date": "2017-11-11T12:26:47Z",
+        "last_date": "2017-12-30T23:05:03Z",
+        "object_type": "event",
+        "artists": [
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/5/",
+            "name": "Metallica",
+            "images": [],
+            "tags": [
+              "http://localhost:8000/v1/tags/193/"
+            ],
+            "object_type": "artist"
+          }
+        ],
+        "has_hot_tickets": true,
+        "images": [],
+        "popularity": 8
+      },
+      {
+        "url": "http://localhost:8000/v1/entertainment_events/1/",
+        "name": "Raimundo Amador",
+        "tags": [],
+        "category": "music",
+        "description": "Fugit amet ex illo voluptatum officia. Nemo vero a quidem doloribus. Eaque iusto error iste odit. Tempora illum voluptas maxime debitis.",
+        "terms_and_conditions": "Cumque cupiditate vitae voluptas dicta dolores excepturi. Necessitatibus minima voluptas accusantium sunt rem.",
+        "top_tips": "Ea doloribus rem magni porro. Quis ullam porro reiciendis laudantium.",
+        "review": null,
+        "city_names": [
+          "London"
+        ],
+        "number_of_venues": 2,
+        "number_of_performances": 4,
+        "next_performance": {
+          "url": "http://localhost:8000/v1/entertainment_performances/2/",
+          "event": "http://localhost:8000/v1/entertainment_events/1/",
+          "venue": {
+            "url": "http://localhost:8000/v1/entertainment_venues/3/",
+            "latitude": null,
+            "longitude": null,
+            "address_line1": "200 Costa Alley Suite 056",
+            "address_line2": "45493 Cynthia Ford",
+            "city": "London",
+            "state": "Aguirreland",
+            "postcode": "03035",
+            "name": "The Jazz Cafe Camden",
+            "seat_plan_file": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_file_um8UZTW.pdf",
+            "seat_plan_images": [
+              {
+                "accessibility_description": "",
+                "sequence": 1,
+                "is_main_image": true,
+                "image": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_image_SXZRA89.jpg"
+              }
+            ],
+            "country": "http://localhost:8000/v1/countries/GB/",
+            "location": "http://localhost:8000/v1/location_tags/02e1e564-86a1-439a-8014-6db797e673e1/",
+            "accessibility_description": "Harum error earum explicabo rem ducimus modi."
+          },
+          "status": "available",
+          "start_date": "2017-12-01T09:30:30Z",
+          "end_date": "2017-12-01T11:30:30Z",
+          "has_vip_suites": false,
+          "is_hot_ticket": true,
+          "estimated_price_min": null,
+          "estimated_price_min_currency": "GBP",
+          "estimated_price_max": null,
+          "estimated_price_max_currency": "GBP"
+        },
+        "minimum_price": 1400.353,
+        "maximum_price": 8006.896,
+        "currency": "GBP",
+        "first_date": "2017-12-01T09:30:30Z",
+        "last_date": "2020-05-17T08:51:13Z",
+        "object_type": "event",
+        "artists": [
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/6/",
+            "name": "Raimundo Amador",
+            "images": [],
+            "tags": [],
+            "object_type": "artist"
+          }
+        ],
+        "has_hot_tickets": true,
+        "images": [],
+        "popularity": 8
+      },
+      {
+        "url": "http://localhost:8000/v1/entertainment_events/4/",
+        "name": "Kings of Leon",
+        "tags": [],
+        "category": "music",
+        "description": "Error asperiores aut tempore. Harum debitis possimus.",
+        "terms_and_conditions": "Quo debitis atque. Earum sit praesentium corrupti placeat.",
+        "top_tips": "Vero beatae fugit debitis nobis. Tempore quo mollitia quae est ad voluptates.",
+        "review": null,
+        "city_names": [
+          "Manchester",
+          "Sheffield"
+        ],
+        "number_of_venues": 2,
+        "number_of_performances": 2,
+        "next_performance": {
+          "url": "http://localhost:8000/v1/entertainment_performances/19/",
+          "event": "http://localhost:8000/v1/entertainment_events/4/",
+          "venue": {
+            "url": "http://localhost:8000/v1/entertainment_venues/11/",
+            "latitude": null,
+            "longitude": null,
+            "address_line1": "09961 James Mountains Suite 203",
+            "address_line2": "6554 Reed Orchard",
+            "city": "Manchester",
+            "state": "Brianstad",
+            "postcode": "50122-8092",
+            "name": "Manchester Arena",
+            "seat_plan_file": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_file_w7dcVj1.pdf",
+            "seat_plan_images": [
+              {
+                "accessibility_description": "",
+                "sequence": 1,
+                "is_main_image": true,
+                "image": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_image_jScdkXh.jpg"
+              }
+            ],
+            "country": "http://localhost:8000/v1/countries/GB/",
+            "location": "http://localhost:8000/v1/location_tags/0c80fc5e-aff3-4e12-bbc2-3c4980257a45/",
+            "accessibility_description": "Modi ea porro eveniet ex debitis ipsam."
+          },
+          "status": "available",
+          "start_date": "2017-12-02T12:27:03Z",
+          "end_date": null,
+          "has_vip_suites": true,
+          "is_hot_ticket": true,
+          "estimated_price_min": null,
+          "estimated_price_min_currency": "GBP",
+          "estimated_price_max": null,
+          "estimated_price_max_currency": "GBP"
+        },
+        "minimum_price": 4439.927,
+        "maximum_price": 7967.67,
+        "currency": "GBP",
+        "first_date": "2017-12-02T12:27:03Z",
+        "last_date": "2019-05-11T14:00:35Z",
+        "object_type": "event",
+        "artists": [
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/4/",
+            "name": "Kings of Leon",
+            "images": [],
+            "tags": [],
+            "object_type": "artist"
+          }
+        ],
+        "has_hot_tickets": true,
+        "images": [],
+        "popularity": 8
+      },
+      {
+        "url": "http://localhost:8000/v1/entertainment_events/9/",
+        "name": "Aegon Championships",
+        "tags": [
+          {
+            "id": 228,
+            "url": "http://localhost:8000/v1/tags/228/",
+            "name": "Tennis",
+            "module": "entertainment",
+            "children_url": "http://localhost:8000/v1/tags/228/children/",
+            "num_children": 0,
+            "descendants_url": "http://localhost:8000/v1/tags/228/descendants/",
+            "num_descendants": 0,
+            "is_preferable": true,
+            "num_preferable_descendants": 0,
+            "parent": {
+              "id": 210,
+              "url": "http://localhost:8000/v1/tags/210/",
+              "name": "Sport",
+              "module": "entertainment",
+              "children_url": "http://localhost:8000/v1/tags/210/children/",
+              "num_children": 23,
+              "descendants_url": "http://localhost:8000/v1/tags/210/descendants/",
+              "num_descendants": 23,
+              "is_preferable": false,
+              "num_preferable_descendants": 23,
+              "parent": {
+                "id": 184,
+                "url": "http://localhost:8000/v1/tags/184/",
+                "name": "Entertainment",
+                "module": "entertainment",
+                "children_url": "http://localhost:8000/v1/tags/184/children/",
+                "num_children": 8,
+                "descendants_url": "http://localhost:8000/v1/tags/184/descendants/",
+                "num_descendants": 272,
+                "is_preferable": false,
+                "num_preferable_descendants": 264
+              }
+            }
+          }
+        ],
+        "category": "sport",
+        "description": "Quam ullam voluptate accusantium voluptas quasi veritatis quod.\nEa molestiae alias tempora dolorum. Asperiores maiores ea hic.",
+        "terms_and_conditions": "Earum molestiae enim modi optio sed totam. Pariatur quae in et. Veritatis asperiores harum modi esse.",
+        "top_tips": "Ratione libero dolores porro provident officiis. Asperiores corporis odit ad.",
+        "review": null,
+        "city_names": [
+          "London"
+        ],
+        "number_of_venues": 1,
+        "number_of_performances": 10,
+        "next_performance": {
+          "url": "http://localhost:8000/v1/entertainment_performances/259/",
+          "event": "http://localhost:8000/v1/entertainment_events/9/",
+          "venue": {
+            "url": "http://localhost:8000/v1/entertainment_venues/9/",
+            "latitude": null,
+            "longitude": null,
+            "address_line1": "4492 Vincent Inlet Suite 936",
+            "address_line2": "95630 Angela Ridges",
+            "city": "London",
+            "state": "Lake Nicholas",
+            "postcode": "22751",
+            "name": "The Queen's Club",
+            "seat_plan_file": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_file_N4HUggs.pdf",
+            "seat_plan_images": [
+              {
+                "accessibility_description": "",
+                "sequence": 1,
+                "is_main_image": true,
+                "image": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_image_jeDCUdS.jpg"
+              }
+            ],
+            "country": "http://localhost:8000/v1/countries/GB/",
+            "location": "http://localhost:8000/v1/location_tags/02e1e564-86a1-439a-8014-6db797e673e1/",
+            "accessibility_description": "Aliquid illo cum quibusdam inventore accusantium."
+          },
+          "status": "available",
+          "start_date": "2017-11-24T19:17:26Z",
+          "end_date": null,
+          "has_vip_suites": false,
+          "is_hot_ticket": true,
+          "estimated_price_min": null,
+          "estimated_price_min_currency": "GBP",
+          "estimated_price_max": null,
+          "estimated_price_max_currency": "GBP"
+        },
+        "minimum_price": 274.986,
+        "maximum_price": 9650.22,
+        "currency": "GBP",
+        "first_date": "2017-11-24T19:17:26Z",
+        "last_date": "2017-12-25T17:08:48Z",
+        "object_type": "event",
+        "artists": [],
+        "has_hot_tickets": true,
+        "images": [],
+        "popularity": 6
+      },
+      {
+        "url": "http://localhost:8000/v1/entertainment_events/10/",
+        "name": "One Love Manchester",
+        "tags": [],
+        "category": "music",
+        "description": "Molestias distinctio quo at eius nam. Adipisci similique fugiat rem numquam reiciendis.\nSit eos nihil labore ipsam. Fugit culpa exercitationem velit quia.",
+        "terms_and_conditions": "Assumenda eos rerum quibusdam. Fuga magni ad ducimus deleniti cum.",
+        "top_tips": "Enim quaerat delectus excepturi aliquid nostrum beatae.",
+        "review": null,
+        "city_names": [
+          "Manchester"
+        ],
+        "number_of_venues": 1,
+        "number_of_performances": 1,
+        "next_performance": {
+          "url": "http://localhost:8000/v1/entertainment_performances/269/",
+          "event": "http://localhost:8000/v1/entertainment_events/10/",
+          "venue": {
+            "url": "http://localhost:8000/v1/entertainment_venues/12/",
+            "latitude": null,
+            "longitude": null,
+            "address_line1": "05200 Joseph Mission Apt. 778",
+            "address_line2": "5463 Gibbs Land Suite 015",
+            "city": "Manchester",
+            "state": "Melindaland",
+            "postcode": "96643-7186",
+            "name": "Old Trafford Cricket Ground",
+            "seat_plan_file": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_file_jCXLyiH.pdf",
+            "seat_plan_images": [
+              {
+                "accessibility_description": "",
+                "sequence": 1,
+                "is_main_image": true,
+                "image": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_image_mH68P7V.jpg"
+              }
+            ],
+            "country": "http://localhost:8000/v1/countries/GB/",
+            "location": "http://localhost:8000/v1/location_tags/0c80fc5e-aff3-4e12-bbc2-3c4980257a45/",
+            "accessibility_description": "Repellat cum nobis magni beatae."
+          },
+          "status": "available",
+          "start_date": "2018-02-20T12:10:47Z",
+          "end_date": null,
+          "has_vip_suites": false,
+          "is_hot_ticket": true,
+          "estimated_price_min": null,
+          "estimated_price_min_currency": "GBP",
+          "estimated_price_max": null,
+          "estimated_price_max_currency": "GBP"
+        },
+        "minimum_price": 4903.594,
+        "maximum_price": 8228.117,
+        "currency": "GBP",
+        "first_date": "2018-02-20T12:10:47Z",
+        "last_date": "2018-02-20T12:10:47Z",
+        "object_type": "event",
+        "artists": [
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/3/",
+            "name": "Adele",
+            "images": [],
+            "tags": [
+              "http://localhost:8000/v1/tags/194/"
+            ],
+            "object_type": "artist"
+          },
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/7/",
+            "name": "Ariana Grande",
+            "images": [],
+            "tags": [
+              "http://localhost:8000/v1/tags/194/"
+            ],
+            "object_type": "artist"
+          },
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/8/",
+            "name": "Justin Bieber",
+            "images": [],
+            "tags": [
+              "http://localhost:8000/v1/tags/194/"
+            ],
+            "object_type": "artist"
+          },
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/9/",
+            "name": "the Black Eyed Peas",
+            "images": [],
+            "tags": [],
+            "object_type": "artist"
+          },
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/19/",
+            "name": "Robbie Williams",
+            "images": [],
+            "tags": [],
+            "object_type": "artist"
+          },
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/29/",
+            "name": "Pharrell Williams",
+            "images": [],
+            "tags": [],
+            "object_type": "artist"
+          },
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/60/",
+            "name": "Take That",
+            "images": [],
+            "tags": [],
+            "object_type": "artist"
+          },
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/64/",
+            "name": "Miley Cyrus",
+            "images": [],
+            "tags": [],
+            "object_type": "artist"
+          },
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/151/",
+            "name": "Coldplay",
+            "images": [],
+            "tags": [],
+            "object_type": "artist"
+          },
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/153/",
+            "name": "Katy Perry",
+            "images": [],
+            "tags": [],
+            "object_type": "artist"
+          }
+        ],
+        "has_hot_tickets": true,
+        "images": [],
+        "popularity": 6
+      },
+      {
+        "url": "http://localhost:8000/v1/entertainment_events/7/",
+        "name": "Lion King",
+        "tags": [],
+        "category": "theatre",
+        "description": "Omnis qui natus nemo. Id debitis quasi quaerat laboriosam distinctio tempore.\nFugit vitae ab atque. Nulla labore deleniti quas maxime. Sequi esse aut velit ut consequuntur reiciendis.",
+        "terms_and_conditions": "Magnam iure molestias animi eum nisi alias.",
+        "top_tips": "Id similique suscipit. Quidem earum aliquid facilis architecto commodi quaerat.",
+        "review": null,
+        "city_names": [
+          "London"
+        ],
+        "number_of_venues": 1,
+        "number_of_performances": 100,
+        "next_performance": {
+          "url": "http://localhost:8000/v1/entertainment_performances/158/",
+          "event": "http://localhost:8000/v1/entertainment_events/7/",
+          "venue": {
+            "url": "http://localhost:8000/v1/entertainment_venues/5/",
+            "latitude": null,
+            "longitude": null,
+            "address_line1": "489 Russell Summit Suite 412",
+            "address_line2": "3734 Daniel Prairie",
+            "city": "London",
+            "state": "Johnsonburgh",
+            "postcode": "04080",
+            "name": "Lyceum Theatre",
+            "seat_plan_file": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_file_4BlcwHi.pdf",
+            "seat_plan_images": [
+              {
+                "accessibility_description": "",
+                "sequence": 1,
+                "is_main_image": true,
+                "image": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_image_tAJghh3.jpg"
+              }
+            ],
+            "country": "http://localhost:8000/v1/countries/GB/",
+            "location": "http://localhost:8000/v1/location_tags/02e1e564-86a1-439a-8014-6db797e673e1/",
+            "accessibility_description": "Libero suscipit facere eveniet eos tenetur."
+          },
+          "status": "available",
+          "start_date": "2017-11-24T07:18:59Z",
+          "end_date": "2017-11-24T11:18:59Z",
+          "has_vip_suites": true,
+          "is_hot_ticket": true,
+          "estimated_price_min": null,
+          "estimated_price_min_currency": "GBP",
+          "estimated_price_max": null,
+          "estimated_price_max_currency": "GBP"
+        },
+        "minimum_price": 53.404,
+        "maximum_price": 9976.881,
+        "currency": "GBP",
+        "first_date": "2016-10-30T12:43:39Z",
+        "last_date": "2020-10-27T09:48:59Z",
+        "object_type": "event",
+        "artists": [],
+        "has_hot_tickets": true,
+        "images": [],
+        "popularity": 3
+      },
+      {
+        "url": "http://localhost:8000/v1/entertainment_events/2/",
+        "name": "New Zealand vs. British & Irish Lions Test Matches",
+        "tags": [
+          {
+            "id": 226,
+            "url": "http://localhost:8000/v1/tags/226/",
+            "name": "Rugby",
+            "module": "entertainment",
+            "children_url": "http://localhost:8000/v1/tags/226/children/",
+            "num_children": 0,
+            "descendants_url": "http://localhost:8000/v1/tags/226/descendants/",
+            "num_descendants": 0,
+            "is_preferable": true,
+            "num_preferable_descendants": 0,
+            "parent": {
+              "id": 210,
+              "url": "http://localhost:8000/v1/tags/210/",
+              "name": "Sport",
+              "module": "entertainment",
+              "children_url": "http://localhost:8000/v1/tags/210/children/",
+              "num_children": 23,
+              "descendants_url": "http://localhost:8000/v1/tags/210/descendants/",
+              "num_descendants": 23,
+              "is_preferable": false,
+              "num_preferable_descendants": 23,
+              "parent": {
+                "id": 184,
+                "url": "http://localhost:8000/v1/tags/184/",
+                "name": "Entertainment",
+                "module": "entertainment",
+                "children_url": "http://localhost:8000/v1/tags/184/children/",
+                "num_children": 8,
+                "descendants_url": "http://localhost:8000/v1/tags/184/descendants/",
+                "num_descendants": 272,
+                "is_preferable": false,
+                "num_preferable_descendants": 264
+              }
+            }
+          }
+        ],
+        "category": "sport",
+        "description": "Accusamus ducimus accusamus totam. Pariatur facilis optio et illum molestias voluptas.\nAsperiores ratione sed distinctio ab. Eum aspernatur doloremque dolorum ex.",
+        "terms_and_conditions": "Asperiores accusamus asperiores corrupti inventore ducimus dicta. Aliquam in officia minus dolorem.",
+        "top_tips": "Consequatur labore quibusdam. Sit tenetur repudiandae.\nEnim libero praesentium ad ab.",
+        "review": null,
+        "city_names": [
+          "Cardiff",
+          "London"
+        ],
+        "number_of_venues": 2,
+        "number_of_performances": 3,
+        "next_performance": {
+          "url": "http://localhost:8000/v1/entertainment_performances/5/",
+          "event": "http://localhost:8000/v1/entertainment_events/2/",
+          "venue": {
+            "url": "http://localhost:8000/v1/entertainment_venues/10/",
+            "latitude": null,
+            "longitude": null,
+            "address_line1": "5676 Reed Divide Suite 746",
+            "address_line2": "6960 Garcia Throughway Apt. 503",
+            "city": "Cardiff",
+            "state": "North Jacquelineburgh",
+            "postcode": "25637",
+            "name": "Tramshed",
+            "seat_plan_file": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_file_6kUAor6.pdf",
+            "seat_plan_images": [
+              {
+                "accessibility_description": "",
+                "sequence": 1,
+                "is_main_image": true,
+                "image": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_image_7Mr4wfX.jpg"
+              }
+            ],
+            "country": "http://localhost:8000/v1/countries/GB/",
+            "location": "http://localhost:8000/v1/location_tags/1f48b175-2cba-43f9-8b0f-1614707533dd/",
+            "accessibility_description": "Ducimus odit dolorem explicabo modi deleniti."
+          },
+          "status": "available",
+          "start_date": "2018-02-02T21:42:31Z",
+          "end_date": null,
+          "has_vip_suites": false,
+          "is_hot_ticket": true,
+          "estimated_price_min": null,
+          "estimated_price_min_currency": "GBP",
+          "estimated_price_max": null,
+          "estimated_price_max_currency": "GBP"
+        },
+        "minimum_price": 1930.78,
+        "maximum_price": 9924.178,
+        "currency": "GBP",
+        "first_date": "2018-02-02T21:42:31Z",
+        "last_date": "2018-02-11T08:31:13Z",
+        "object_type": "event",
+        "artists": [],
+        "has_hot_tickets": true,
+        "images": [],
+        "popularity": 3
+      },
+      {
+        "url": "http://localhost:8000/v1/entertainment_events/11/",
+        "name": "England vs. France",
+        "tags": [
+          {
+            "id": 226,
+            "url": "http://localhost:8000/v1/tags/226/",
+            "name": "Rugby",
+            "module": "entertainment",
+            "children_url": "http://localhost:8000/v1/tags/226/children/",
+            "num_children": 0,
+            "descendants_url": "http://localhost:8000/v1/tags/226/descendants/",
+            "num_descendants": 0,
+            "is_preferable": true,
+            "num_preferable_descendants": 0,
+            "parent": {
+              "id": 210,
+              "url": "http://localhost:8000/v1/tags/210/",
+              "name": "Sport",
+              "module": "entertainment",
+              "children_url": "http://localhost:8000/v1/tags/210/children/",
+              "num_children": 23,
+              "descendants_url": "http://localhost:8000/v1/tags/210/descendants/",
+              "num_descendants": 23,
+              "is_preferable": false,
+              "num_preferable_descendants": 23,
+              "parent": {
+                "id": 184,
+                "url": "http://localhost:8000/v1/tags/184/",
+                "name": "Entertainment",
+                "module": "entertainment",
+                "children_url": "http://localhost:8000/v1/tags/184/children/",
+                "num_children": 8,
+                "descendants_url": "http://localhost:8000/v1/tags/184/descendants/",
+                "num_descendants": 272,
+                "is_preferable": false,
+                "num_preferable_descendants": 264
+              }
+            }
+          }
+        ],
+        "category": "sport",
+        "description": "Culpa iusto delectus cum.\nAnimi saepe minima laudantium sit. Atque quod laudantium a dolor ea odio corrupti. Totam commodi nihil similique voluptas alias. Ad nemo soluta quisquam dignissimos ad.",
+        "terms_and_conditions": "Aut magni ea est laudantium cupiditate. Perferendis voluptatum fugit possimus similique.",
+        "top_tips": "Alias sapiente magni deleniti. Blanditiis recusandae optio accusamus repudiandae.",
+        "review": null,
+        "city_names": [
+          "London"
+        ],
+        "number_of_venues": 1,
+        "number_of_performances": 2,
+        "next_performance": {
+          "url": "http://localhost:8000/v1/entertainment_performances/271/",
+          "event": "http://localhost:8000/v1/entertainment_events/11/",
+          "venue": {
+            "url": "http://localhost:8000/v1/entertainment_venues/8/",
+            "latitude": null,
+            "longitude": null,
+            "address_line1": "65365 Church Spur",
+            "address_line2": "964 Marc Underpass Suite 716",
+            "city": "London",
+            "state": "South Jimmyshire",
+            "postcode": "77002-0612",
+            "name": "London Stadium",
+            "seat_plan_file": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_file_efxGx8R.pdf",
+            "seat_plan_images": [
+              {
+                "accessibility_description": "",
+                "sequence": 1,
+                "is_main_image": true,
+                "image": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_image_YTOShum.jpg"
+              }
+            ],
+            "country": "http://localhost:8000/v1/countries/GB/",
+            "location": "http://localhost:8000/v1/location_tags/02e1e564-86a1-439a-8014-6db797e673e1/",
+            "accessibility_description": "Voluptates doloremque minus eaque."
+          },
+          "status": "available",
+          "start_date": "2017-11-19T20:46:24Z",
+          "end_date": null,
+          "has_vip_suites": true,
+          "is_hot_ticket": true,
+          "estimated_price_min": null,
+          "estimated_price_min_currency": "GBP",
+          "estimated_price_max": null,
+          "estimated_price_max_currency": "GBP"
+        },
+        "minimum_price": 702.272,
+        "maximum_price": 3368.49,
+        "currency": "GBP",
+        "first_date": "2017-11-19T20:46:24Z",
+        "last_date": "2018-01-30T08:46:33Z",
+        "object_type": "event",
+        "artists": [],
+        "has_hot_tickets": true,
+        "images": [],
+        "popularity": 2
+      },
+      {
+        "url": "http://localhost:8000/v1/entertainment_events/8/",
+        "name": "Dara O' Briain",
+        "tags": [
+          {
+            "id": 234,
+            "url": "http://localhost:8000/v1/tags/234/",
+            "name": "Comedy",
+            "module": "entertainment",
+            "children_url": "http://localhost:8000/v1/tags/234/children/",
+            "num_children": 3,
+            "descendants_url": "http://localhost:8000/v1/tags/234/descendants/",
+            "num_descendants": 3,
+            "is_preferable": false,
+            "num_preferable_descendants": 3,
+            "parent": {
+              "id": 184,
+              "url": "http://localhost:8000/v1/tags/184/",
+              "name": "Entertainment",
+              "module": "entertainment",
+              "children_url": "http://localhost:8000/v1/tags/184/children/",
+              "num_children": 8,
+              "descendants_url": "http://localhost:8000/v1/tags/184/descendants/",
+              "num_descendants": 272,
+              "is_preferable": false,
+              "num_preferable_descendants": 264
+            }
+          }
+        ],
+        "category": "comedy",
+        "description": "Ad eos iste cumque corrupti eveniet quaerat. Nisi magni odio ex quae soluta.\nAsperiores reprehenderit laborum omnis. Sit vitae a numquam harum. Esse dolores rem a reiciendis non.",
+        "terms_and_conditions": "Architecto voluptatibus id quasi. Rem blanditiis eius itaque culpa. Tempore facere vitae tempore.",
+        "top_tips": "Aliquam labore eaque incidunt modi delectus ducimus. Expedita dolore magni nihil.",
+        "review": null,
+        "city_names": [
+          "London"
+        ],
+        "number_of_venues": 1,
+        "number_of_performances": 3,
+        "next_performance": {
+          "url": "http://localhost:8000/v1/entertainment_performances/257/",
+          "event": "http://localhost:8000/v1/entertainment_events/8/",
+          "venue": {
+            "url": "http://localhost:8000/v1/entertainment_venues/7/",
+            "latitude": null,
+            "longitude": null,
+            "address_line1": "925 Scott Heights Apt. 160",
+            "address_line2": "78678 Eduardo Plains",
+            "city": "London",
+            "state": "Port Tomland",
+            "postcode": "66660-4029",
+            "name": "Eventim Apollo",
+            "seat_plan_file": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_file_7NtXAF3.pdf",
+            "seat_plan_images": [
+              {
+                "accessibility_description": "",
+                "sequence": 1,
+                "is_main_image": true,
+                "image": "http://localhost:8000/media/entertainment_venue_seat_plans/test_venue_seat_plan_image_qp98q7j.jpg"
+              }
+            ],
+            "country": "http://localhost:8000/v1/countries/GB/",
+            "location": "http://localhost:8000/v1/location_tags/02e1e564-86a1-439a-8014-6db797e673e1/",
+            "accessibility_description": "Ullam autem ea optio fugit."
+          },
+          "status": "available",
+          "start_date": "2019-01-21T08:58:21Z",
+          "end_date": "2019-01-21T10:58:21Z",
+          "has_vip_suites": false,
+          "is_hot_ticket": true,
+          "estimated_price_min": null,
+          "estimated_price_min_currency": "GBP",
+          "estimated_price_max": null,
+          "estimated_price_max_currency": "GBP"
+        },
+        "minimum_price": 3568.353,
+        "maximum_price": 9598.798,
+        "currency": "GBP",
+        "first_date": "2019-01-21T08:58:21Z",
+        "last_date": "2020-03-11T16:53:47Z",
+        "object_type": "event",
+        "artists": [
+          {
+            "url": "http://localhost:8000/v1/entertainment_artists/10/",
+            "name": "Dara O' Briain",
+            "images": [],
+            "tags": [],
+            "object_type": "artist"
+          }
+        ],
+        "has_hot_tickets": true,
+        "images": [],
+        "popularity": 0
+      }
+    ]
+  }
