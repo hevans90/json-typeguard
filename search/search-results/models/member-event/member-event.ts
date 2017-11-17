@@ -1,24 +1,11 @@
-import { SearchResult } from './search-result';
-import { MemberEventTag } from './../tag';
+import { Tag } from '../tag';
+import { Image } from '../image';
+import { Country } from '../country';
+import { MemberEventSearchResult, BrandSearchResult } from '../search-result';
 
-export interface MemberEventSearchResult extends SearchResult {
-    tags: MemberEventTag[];
-
-    //#region name_xyz
-    name_en_gb: string;
-    name_en_us?: any;
-    name_en_ca?: any;
-    name_es_es?: any;
-    name_fr_ca?: any;
-    name_pt_br?: any;
-    name_ar_ae?: any;
-    name_zh_hans?: any;
-    name_zh_hant?: any;
-    name_ja?: any;
-    name_ko?: any;
-    //#endregion
-
-    brands: Brand[];
+export interface MemberEvent extends MemberEventSearchResult {
+    tags: Tag[];
+    brands: BrandSearchResult[];
     country: Country;
     images: Image[];
     latitude?: any;
@@ -28,6 +15,18 @@ export interface MemberEventSearchResult extends SearchResult {
     city: string;
     state: string;
     postcode: string;
+    name: string;
+    name_en_gb?: string;
+    name_en_us?: string;
+    name_en_ca?: string;
+    name_es_es?: string;
+    name_fr_ca?: string;
+    name_pt_br?: string;
+    name_ar_ae?: string;
+    name_zh_hans?: string;
+    name_zh_hant?: string;
+    name_ja?: string;
+    name_ko?: string;
     type: string;
     complimentary_ticket_type: string;
     capacity: number;
@@ -37,9 +36,7 @@ export interface MemberEventSearchResult extends SearchResult {
     adult_ticket_price: string;
     child_ticket_price_currency: string;
     child_ticket_price: string;
-
     description: string;
-    //#region description_xyz
     description_en_gb: string;
     description_en_us: string;
     description_en_ca: string;
@@ -51,10 +48,7 @@ export interface MemberEventSearchResult extends SearchResult {
     description_zh_hant: string;
     description_ja: string;
     description_ko: string;
-    //#endregion
-
     supplier: string;
-    //#region supplier_xyz
     supplier_en_gb: string;
     supplier_en_us: string;
     supplier_en_ca: string;
@@ -66,10 +60,7 @@ export interface MemberEventSearchResult extends SearchResult {
     supplier_zh_hant: string;
     supplier_ja: string;
     supplier_ko: string;
-    //#endregion
-
     agenda: string;
-    //#region agenda_xyz
     agenda_en_gb: string;
     agenda_en_us: string;
     agenda_en_ca: string;
@@ -81,10 +72,7 @@ export interface MemberEventSearchResult extends SearchResult {
     agenda_zh_hant: string;
     agenda_ja: string;
     agenda_ko: string;
-    //#endregion
-
     dress_code: string;
-    //#region dress_code_xyz
     dress_code_en_gb: string;
     dress_code_en_us: string;
     dress_code_en_ca: string;
@@ -96,8 +84,6 @@ export interface MemberEventSearchResult extends SearchResult {
     dress_code_zh_hant: string;
     dress_code_ja: string;
     dress_code_ko: string;
-    //#endregion
-
     is_food_and_drink_served: boolean;
     food_and_drink: string;
     is_outdoors: boolean;
@@ -105,39 +91,4 @@ export interface MemberEventSearchResult extends SearchResult {
     vendor_id?: any;
     categories: any[];
     sites: string[];
-    number_of_benefits?: number;
-    member_benefit_categories: any[];
-    tag_image: TagImage;
-    number_of_events?: number;
-}
-
-export interface Brand {
-    url: string;
-    name: string;
-    website: string;
-    image: string;
-    accessibility_description: string;
-}
-
-export interface Country {
-    url: string;
-    code: string;
-    name: string;
-    alpha3_code: string;
-}
-
-export interface Image {
-    url: string;
-    sequence: number;
-    image: string;
-    accessibility_description: string;
-    is_main_image: boolean;
-    event: string;
-}
-
-export interface TagImage {
-    image?: any;
-    accessibility_description: string;
-    title: string;
-    caption: string;
 }

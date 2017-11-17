@@ -1,8 +1,8 @@
-import { SearchResult } from './search-result';
-import { EntertainmentTag } from './../tag';
+import { EntertainmentSearchResult } from '../search-result';
+import { Tag } from '../tag';
 
-export interface EntertainmentSearchResult extends SearchResult {
-    tags: EntertainmentTag[];
+export interface Event extends EntertainmentSearchResult {
+    tags: Tag[];
     category: string;
     description: string;
     terms_and_conditions: string;

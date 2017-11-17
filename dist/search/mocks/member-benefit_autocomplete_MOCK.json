@@ -1,0 +1,412 @@
+{
+    "page_size": 12,
+    "current": 1,
+    "count": 235,
+    "next": "http://localhost:8000/v1/member_benefit_autocomplete/?page=2",
+    "previous": null,
+    "results": [
+        {
+            "url": "http://localhost:8000/v1/member_benefits/9/",
+            "available_from": "2011-12-30T17:52:49Z",
+            "available_until": "2019-01-03T18:50:39Z",
+            "name": "Patterson, Romero and Weiss",
+            "description": "Hic consequuntur adipisci totam. Animi perferendis deserunt dignissimos.",
+            "terms_and_conditions": "Consectetur officia quidem magnam mollitia error. Unde dignissimos porro ut mollitia ipsum repudiandae saepe.",
+            "location": {
+                "url": "http://localhost:8000/v1/location_tags/f95d6e6d-acb7-41af-b260-83c61473cdf7/",
+                "name": "France",
+                "object_type": "location_tag",
+                "parent": null
+            },
+            "opening_times": "",
+            "online_redemption_code": "",
+            "in_store_redemption": null,
+            "url_redemption": null,
+            "tags": [
+                {
+                    "id": 474,
+                    "url": "http://localhost:8000/v1/tags/474/",
+                    "name": "Categories",
+                    "module": "member_benefits",
+                    "children_url": "http://localhost:8000/v1/tags/474/children/",
+                    "num_children": 16,
+                    "descendants_url": "http://localhost:8000/v1/tags/474/descendants/",
+                    "num_descendants": 16,
+                    "is_preferable": false,
+                    "num_preferable_descendants": 16,
+                    "parent": {
+                        "id": 473,
+                        "url": "http://localhost:8000/v1/tags/473/",
+                        "name": "Member Benefits",
+                        "module": "member_benefits",
+                        "children_url": "http://localhost:8000/v1/tags/473/children/",
+                        "num_children": 2,
+                        "descendants_url": "http://localhost:8000/v1/tags/473/descendants/",
+                        "num_descendants": 36,
+                        "is_preferable": false,
+                        "num_preferable_descendants": 34
+                    }
+                }
+            ],
+            "images": [
+                {
+                    "url": "http://localhost:8000/v1/member_benefits_images/15/",
+                    "sequence": 1,
+                    "image": "http://localhost:8000/media/member_benefit_images/example_90w2Tm0.jpg",
+                    "accessibility_description": "Dignissimos ipsa voluptates possimus nemo repellendus nihil.",
+                    "benefit": "http://localhost:8000/v1/member_benefits/9/"
+                }
+            ],
+            "is_multi_time_redemption": true,
+            "sequence": 100,
+            "has_limited_availability": false,
+            "is_expiring_soon": false,
+            "brand": {
+                "url": "http://localhost:8000/v1/brands/9/",
+                "name": "Hammond PLC",
+                "website": "https://collins.com/",
+                "image": "http://localhost:8000/media/brand_images/example_8daT7AP.jpg",
+                "accessibility_description": "Fuga ipsam perspiciatis perferendis eos."
+            },
+            "categories": [
+                {
+                    "url": "http://localhost:8000/v1/member_benefits_categories/15/",
+                    "number_of_benefits": 1,
+                    "name": "iTaeizanFTnoSnpIIHrs",
+                    "brands": [],
+                    "object_type": "member_benefit_category",
+                    "tag_image": null
+                },
+                {
+                    "url": "http://localhost:8000/v1/member_benefits_categories/16/",
+                    "number_of_benefits": 1,
+                    "name": "BWyHhBMrcsCXHvaBWUbr",
+                    "brands": [],
+                    "object_type": "member_benefit_category",
+                    "tag_image": null
+                }
+            ],
+            "object_type": "member_benefit"
+        },
+        {
+            "url": "http://localhost:8000/v1/brands/6/",
+            "name": "Miller, Rodriguez and Hamilton",
+            "number_of_benefits": 1,
+            "member_benefit_categories": [],
+            "object_type": "brand",
+            "tag_image": null
+        },
+        {
+            "url": "http://localhost:8000/v1/member_benefits_categories/7/",
+            "number_of_benefits": 1,
+            "name": "rdEfLmLGInGzksaRCRTP",
+            "brands": [],
+            "object_type": "member_benefit_category",
+            "tag_image": null
+        },
+        {
+            "url": "http://localhost:8000/v1/member_benefits/8/",
+            "available_from": "2016-08-13T10:13:23Z",
+            "available_until": "2019-10-03T04:27:21Z",
+            "name": "Woodard, Paul and Romero",
+            "description": "Magnam velit qui dignissimos asperiores deleniti. Possimus quisquam modi odit deleniti pariatur cumque. Sint fugiat perspiciatis dolore dolorum esse temporibus est.",
+            "terms_and_conditions": "Facilis praesentium facilis at molestias aspernatur similique. Quae quaerat iste hic.",
+            "location": {
+                "url": "http://localhost:8000/v1/location_tags/6839d93c-d166-40a3-a2a6-526a707534f5/",
+                "name": "Luxembourg",
+                "object_type": "location_tag",
+                "parent": null
+            },
+            "opening_times": "",
+            "online_redemption_code": "",
+            "in_store_redemption": null,
+            "url_redemption": null,
+            "tags": [
+                {
+                    "id": 474,
+                    "url": "http://localhost:8000/v1/tags/474/",
+                    "name": "Categories",
+                    "module": "member_benefits",
+                    "children_url": "http://localhost:8000/v1/tags/474/children/",
+                    "num_children": 16,
+                    "descendants_url": "http://localhost:8000/v1/tags/474/descendants/",
+                    "num_descendants": 16,
+                    "is_preferable": false,
+                    "num_preferable_descendants": 16,
+                    "parent": {
+                        "id": 473,
+                        "url": "http://localhost:8000/v1/tags/473/",
+                        "name": "Member Benefits",
+                        "module": "member_benefits",
+                        "children_url": "http://localhost:8000/v1/tags/473/children/",
+                        "num_children": 2,
+                        "descendants_url": "http://localhost:8000/v1/tags/473/descendants/",
+                        "num_descendants": 36,
+                        "is_preferable": false,
+                        "num_preferable_descendants": 34
+                    }
+                }
+            ],
+            "images": [
+                {
+                    "url": "http://localhost:8000/v1/member_benefits_images/13/",
+                    "sequence": 1,
+                    "image": "http://localhost:8000/media/member_benefit_images/example_Uzh0ZTr.jpg",
+                    "accessibility_description": "Deleniti nobis alias id corrupti animi quam.",
+                    "benefit": "http://localhost:8000/v1/member_benefits/8/"
+                },
+                {
+                    "url": "http://localhost:8000/v1/member_benefits_images/14/",
+                    "sequence": 1,
+                    "image": "http://localhost:8000/media/member_benefit_images/example_tTGH495.jpg",
+                    "accessibility_description": "Corporis magnam nam repellendus quos a facere.",
+                    "benefit": "http://localhost:8000/v1/member_benefits/8/"
+                }
+            ],
+            "is_multi_time_redemption": true,
+            "sequence": 100,
+            "has_limited_availability": false,
+            "is_expiring_soon": false,
+            "brand": {
+                "url": "http://localhost:8000/v1/brands/8/",
+                "name": "Hubbard-Mcmahon",
+                "website": "http://www.saunders.biz/",
+                "image": "http://localhost:8000/media/brand_images/example_abgzie0.jpg",
+                "accessibility_description": "Praesentium autem dicta."
+            },
+            "categories": [
+                {
+                    "url": "http://localhost:8000/v1/member_benefits_categories/13/",
+                    "number_of_benefits": 1,
+                    "name": "bPIqnBQKTGPmFObTPoFr",
+                    "brands": [],
+                    "object_type": "member_benefit_category",
+                    "tag_image": null
+                },
+                {
+                    "url": "http://localhost:8000/v1/member_benefits_categories/14/",
+                    "number_of_benefits": 1,
+                    "name": "QOYaVJolNurZwyeEYuNh",
+                    "brands": [],
+                    "object_type": "member_benefit_category",
+                    "tag_image": null
+                }
+            ],
+            "object_type": "member_benefit"
+        },
+        {
+            "url": "http://localhost:8000/v1/brands/7/",
+            "name": "Donovan, Johnson and Brown",
+            "number_of_benefits": 1,
+            "member_benefit_categories": [],
+            "object_type": "brand",
+            "tag_image": null
+        },
+        {
+            "url": "http://localhost:8000/v1/member_benefits_categories/9/",
+            "number_of_benefits": 1,
+            "name": "BkrMoYPWHEEDTQVNbJRr",
+            "brands": [],
+            "object_type": "member_benefit_category",
+            "tag_image": null
+        },
+        {
+            "url": "http://localhost:8000/v1/member_benefits/7/",
+            "available_from": "2015-07-30T17:59:26Z",
+            "available_until": "2018-11-12T20:21:03Z",
+            "name": "Christian LLC",
+            "description": "Quam modi rem cum quisquam.",
+            "terms_and_conditions": "Delectus maxime asperiores ab deleniti commodi praesentium. Sapiente fuga harum tenetur possimus. Doloremque atque cum nulla enim voluptatibus.",
+            "location": {
+                "url": "http://localhost:8000/v1/location_tags/14b846b6-008d-4a75-832f-573a4b98ecad/",
+                "name": "Macao",
+                "object_type": "location_tag",
+                "parent": null
+            },
+            "opening_times": "",
+            "online_redemption_code": "",
+            "in_store_redemption": null,
+            "url_redemption": null,
+            "tags": [
+                {
+                    "id": 474,
+                    "url": "http://localhost:8000/v1/tags/474/",
+                    "name": "Categories",
+                    "module": "member_benefits",
+                    "children_url": "http://localhost:8000/v1/tags/474/children/",
+                    "num_children": 16,
+                    "descendants_url": "http://localhost:8000/v1/tags/474/descendants/",
+                    "num_descendants": 16,
+                    "is_preferable": false,
+                    "num_preferable_descendants": 16,
+                    "parent": {
+                        "id": 473,
+                        "url": "http://localhost:8000/v1/tags/473/",
+                        "name": "Member Benefits",
+                        "module": "member_benefits",
+                        "children_url": "http://localhost:8000/v1/tags/473/children/",
+                        "num_children": 2,
+                        "descendants_url": "http://localhost:8000/v1/tags/473/descendants/",
+                        "num_descendants": 36,
+                        "is_preferable": false,
+                        "num_preferable_descendants": 34
+                    }
+                }
+            ],
+            "images": [
+                {
+                    "url": "http://localhost:8000/v1/member_benefits_images/12/",
+                    "sequence": 1,
+                    "image": "http://localhost:8000/media/member_benefit_images/example_JJ66NoO.jpg",
+                    "accessibility_description": "Accusamus mollitia possimus voluptates id soluta totam.",
+                    "benefit": "http://localhost:8000/v1/member_benefits/7/"
+                }
+            ],
+            "is_multi_time_redemption": true,
+            "sequence": 100,
+            "has_limited_availability": false,
+            "is_expiring_soon": false,
+            "brand": {
+                "url": "http://localhost:8000/v1/brands/7/",
+                "name": "Donovan, Johnson and Brown",
+                "website": "http://www.fritz.net/",
+                "image": "http://localhost:8000/media/brand_images/example_OaAyanh.jpg",
+                "accessibility_description": "Nihil excepturi dolor dolorem."
+            },
+            "categories": [
+                {
+                    "url": "http://localhost:8000/v1/member_benefits_categories/10/",
+                    "number_of_benefits": 1,
+                    "name": "ojlROtJdkIRXfyUHRjOx",
+                    "brands": [],
+                    "object_type": "member_benefit_category",
+                    "tag_image": null
+                },
+                {
+                    "url": "http://localhost:8000/v1/member_benefits_categories/11/",
+                    "number_of_benefits": 1,
+                    "name": "JMvRPIfGtAgVaamtakTn",
+                    "brands": [],
+                    "object_type": "member_benefit_category",
+                    "tag_image": null
+                },
+                {
+                    "url": "http://localhost:8000/v1/member_benefits_categories/12/",
+                    "number_of_benefits": 1,
+                    "name": "XfKvipzlpZOrUXHTGuMr",
+                    "brands": [],
+                    "object_type": "member_benefit_category",
+                    "tag_image": null
+                }
+            ],
+            "object_type": "member_benefit"
+        },
+        {
+            "url": "http://localhost:8000/v1/brands/3/",
+            "name": "Garcia, Smith and Clark",
+            "number_of_benefits": 1,
+            "member_benefit_categories": [],
+            "object_type": "brand",
+            "tag_image": null
+        },
+        {
+            "url": "http://localhost:8000/v1/member_benefits_categories/6/",
+            "number_of_benefits": 1,
+            "name": "IjpBxflQXAmZLwWVCbdB",
+            "brands": [],
+            "object_type": "member_benefit_category",
+            "tag_image": null
+        },
+        {
+            "url": "http://localhost:8000/v1/member_benefits/6/",
+            "available_from": "2010-01-07T06:05:11Z",
+            "available_until": "2018-09-25T19:26:27Z",
+            "name": "Walker, Lane and Wagner",
+            "description": "Voluptates pariatur natus delectus magnam. Illo itaque molestias sed.",
+            "terms_and_conditions": "Ratione assumenda occaecati quo vero sunt.",
+            "location": {
+                "url": "http://localhost:8000/v1/location_tags/63695057-1ac7-4688-a533-7ab14b4415cb/",
+                "name": "Cameroon",
+                "object_type": "location_tag",
+                "parent": null
+            },
+            "opening_times": "",
+            "online_redemption_code": "",
+            "in_store_redemption": null,
+            "url_redemption": null,
+            "tags": [
+                {
+                    "id": 474,
+                    "url": "http://localhost:8000/v1/tags/474/",
+                    "name": "Categories",
+                    "module": "member_benefits",
+                    "children_url": "http://localhost:8000/v1/tags/474/children/",
+                    "num_children": 16,
+                    "descendants_url": "http://localhost:8000/v1/tags/474/descendants/",
+                    "num_descendants": 16,
+                    "is_preferable": false,
+                    "num_preferable_descendants": 16,
+                    "parent": {
+                        "id": 473,
+                        "url": "http://localhost:8000/v1/tags/473/",
+                        "name": "Member Benefits",
+                        "module": "member_benefits",
+                        "children_url": "http://localhost:8000/v1/tags/473/children/",
+                        "num_children": 2,
+                        "descendants_url": "http://localhost:8000/v1/tags/473/descendants/",
+                        "num_descendants": 36,
+                        "is_preferable": false,
+                        "num_preferable_descendants": 34
+                    }
+                }
+            ],
+            "images": [
+                {
+                    "url": "http://localhost:8000/v1/member_benefits_images/11/",
+                    "sequence": 1,
+                    "image": "http://localhost:8000/media/member_benefit_images/example_JeJrYgf.jpg",
+                    "accessibility_description": "Quibusdam debitis fugit nostrum enim.",
+                    "benefit": "http://localhost:8000/v1/member_benefits/6/"
+                }
+            ],
+            "is_multi_time_redemption": true,
+            "sequence": 100,
+            "has_limited_availability": false,
+            "is_expiring_soon": false,
+            "brand": {
+                "url": "http://localhost:8000/v1/brands/6/",
+                "name": "Miller, Rodriguez and Hamilton",
+                "website": "http://www.hall-lamb.net/",
+                "image": "http://localhost:8000/media/brand_images/example_VJ718r7.jpg",
+                "accessibility_description": "Ipsam et in nam quisquam quam occaecati."
+            },
+            "categories": [
+                {
+                    "url": "http://localhost:8000/v1/member_benefits_categories/9/",
+                    "number_of_benefits": 1,
+                    "name": "BkrMoYPWHEEDTQVNbJRr",
+                    "brands": [],
+                    "object_type": "member_benefit_category",
+                    "tag_image": null
+                }
+            ],
+            "object_type": "member_benefit"
+        },
+        {
+            "url": "http://localhost:8000/v1/brands/8/",
+            "name": "Hubbard-Mcmahon",
+            "number_of_benefits": 1,
+            "member_benefit_categories": [],
+            "object_type": "brand",
+            "tag_image": null
+        },
+        {
+            "url": "http://localhost:8000/v1/member_benefits_categories/8/",
+            "number_of_benefits": 1,
+            "name": "yxTziUybgevAtGUPBwHP",
+            "brands": [],
+            "object_type": "member_benefit_category",
+            "tag_image": null
+        }
+    ]
+}
