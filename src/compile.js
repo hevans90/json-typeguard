@@ -17,4 +17,3 @@ function compile(filePaths, writeFileCallback) {
     }
 }
 exports.compile = compile;
-compile(['./index.ts'], function (fileName, data) { return console.log("FileName: " + fileName + " \nData: " + data); });

@@ -17,5 +17,4 @@ function compile(filePaths, writeFileCallback) {
     }
 }
 exports.compile = compile;
-compile(['./index.js'], (fileName, data) => console.log(`FileName: ${fileName} \nData: ${data}`));
 //# sourceMappingURL=compile.js.map
