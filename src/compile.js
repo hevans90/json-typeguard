@@ -5,7 +5,7 @@ function compile(filePaths, writeFileCallback) {
     var program = ts.createProgram(filePaths, {
         strict: true,
         noEmitOnError: true,
-        target: ts.ScriptTarget.ES5
+        target: ts.ScriptTarget.ES2017
     });
     var transformers = {
         before: [transformer_1["default"](program)],
