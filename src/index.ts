@@ -43,25 +43,25 @@ const mockDefinitions = [
 ];
 
 
-fs.readFile(mockDefinitions[0].path, (err, data: any) => {
+fs.readFile(mockDefinitions[0].path, (err: any, data: any) => {
     runTypeGuardAgainstMock<searchResultTypes.DiningSearchResult>(err, data, mockDefinitions[0].mockName, mockDefinitions[0].inferenceTypes);
 });
 
-fs.readFile(mockDefinitions[1].path, (err, data: any) => {
+fs.readFile(mockDefinitions[1].path, (err: any, data: any) => {
     runTypeGuardAgainstMock<searchResultTypes.EntertainmentSearchResult>(err, data, mockDefinitions[1].mockName, mockDefinitions[1].inferenceTypes);
 });
 
-fs.readFile(mockDefinitions[2].path, (err, data: any) => {
+fs.readFile(mockDefinitions[2].path, (err: any, data: any) => {
     runTypeGuardAgainstMock<searchResultTypes.MemberBenefitSearchResult>(err, data, mockDefinitions[2].mockName, mockDefinitions[2].inferenceTypes);
 });
 
-fs.readFile(mockDefinitions[3].path, (err, data: any) => {
+fs.readFile(mockDefinitions[3].path, (err: any, data: any) => {
     runTypeGuardAgainstMock<searchResultTypes.MemberEventSearchResult>(err, data, mockDefinitions[3].mockName, mockDefinitions[3].inferenceTypes);
 });
 
 function runTypeGuardAgainstMock
     <T extends searchResultTypes.SearchResult>
-    (err, data: any, mockName: string, inferenceTypes: string[]) {
+    (err: any, data: any, mockName: string, inferenceTypes: string[]) {
 
     let response = JSON.parse(data) as PaginatedApiResponse<T>;
     const total = response.results.length;
@@ -96,15 +96,24 @@ class SearchResultTypeGuard {
 
     static isType
         <T extends searchResultTypes.SearchResult>
-        (searchResult, inferenceTypes: string[]): searchResult is T {
+        (searchResult: any, inferenceTypes: string[]): searchResult is T {
         return inferenceTypes.includes((<T>searchResult).object_type);
     }
 
-    static isDiningSearchResult(searchResult): searchResult is searchResultTypes.DiningSearchResult {
-        
+    static isDiningSearchResult(searchResult: any): searchResult is searchResultTypes.DiningSearchResult {
         let interfaceKeys = keys<searchResultTypes.DiningSearchResult>();
-        let successes, failures = 0;
-        interfaceKeys.forEach((k) => searchResult[k] ? successes++ : failures++);
+        let successes = 0;
+        let failures = 0;
+        interfaceKeys.forEach((k: string) => searchResult[k] ? successes++ : failures++);
         return failures === 0;
     }
+
+    // this GENERIC version won't work currently :(
+        
+    // static isSearchResultType<T>(searchResult): searchResult is T {
+    //     let interfaceKeys = keys<T>();
+    //     let successes, failures = 0;
+    //     interfaceKeys.forEach((k) => searchResult[k] ? successes++ : failures++);
+    //     return failures === 0;
+    // }
 }
