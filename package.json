@@ -1,5 +1,5 @@
 {
-  "name": "search_redefinition",
+  "name": "json-typeguard",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^8.0.53",
+    "colors": "^1.1.2",
     "ts-transformer-keys": "^0.3.0",
     "typescript": "^2.6.1"
   }
