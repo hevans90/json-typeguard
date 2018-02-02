@@ -1,7 +1,6 @@
 "use strict";
 let colors = require('colors');
 const fs = require("fs");
-const ts_transformer_keys_1 = require("ts-transformer-keys");
 const mockDefinitions = [
     {
         mockName: 'DINING',
@@ -80,10 +79,11 @@ class SearchResultTypeGuard {
         return inferenceTypes.includes(searchResult.object_type);
     }
     static isDiningSearchResult(searchResult) {
-        let interfaceKeys = ts_transformer_keys_1.keys();
-        let successes, failures = 0;
-        interfaceKeys.forEach((k) => searchResult[k] ? successes++ : failures++);
-        return failures === 0;
+        return true;
+        // let interfaceKeys = keys<searchResultTypes.DiningSearchResult>();
+        // let successes, failures = 0;
+        // interfaceKeys.forEach((k) => searchResult[k] ? successes++ : failures++);
+        // return failures === 0;
     }
 }
 //# sourceMappingURL=index.js.map
